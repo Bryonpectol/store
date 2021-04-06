@@ -3,6 +3,50 @@
     padding: 0px;
 }
 
+.supportbody {
+    background-color: teal;
+}
+
+.storehead {
+    width: 100%;
+    height: 40vh;
+    background-color: teal;
+}
+
+.homehead {
+    width: 100%;
+    height: 70vh;
+    background-color: teal;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    box-shadow: black 0px 2px 8px;
+}
+
+.ulstore {
+    display: flex;
+    flex-direction: row;
+}
+
+.listore {
+    list-style-type: none;
+}
+
+.astore {
+    text-decoration: none;
+    color: black;
+    margin: 2vh;
+    padding: 2vh;
+}
+
+.astore:hover {
+    background-color: teal;
+    color: white;
+}
+
 .card {
     border: 2px solid black;
     border-radius: 50px;
@@ -10,4 +54,72 @@
     height: 40vh;
     padding: 10vh;
     margin: 5vh;
+    text-align: center;
+}
+
+.box {
+    margin: 5vh;
+}
+
+.boxlink {
+    margin: 5vh;
+    text-decoration: none;
+    padding: 2vh;
+    border: 2px solid black;
+    color: black;
+}
+
+.boxlink:hover {
+    border: 2px solid white;
+    background-color: teal;
+    color: white;
+}
+
+.hotlinkdiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 35vh;
+}
+
+.hotlink {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 2vh;
+    background-color: white;
+    color: black;
+    width: 20vh;
+}
+
+.hotlink:hover {
+    background-color: black;
+    color: white;
+}
+
+.supporth1 {
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formcontainer {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    padding-top: 2vh;
+}
+
+form {
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: white;
+    width: 150vh;
+    height: 75vh;
+    margin-bottom: 2vh;
 }
